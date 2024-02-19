@@ -1,0 +1,176 @@
+/*MAIN CSS FILE*/
+
+#mainbg{ 
+    background-color: #0d0c1d;
+}
+
+#container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #474973;
+    border-style: solid;
+    border-color: #161b33;
+    padding: 10px;
+}
+
+.navi{
+    font-family:Roboto;
+    width: 120px;
+    height: 50px;
+    border-style: solid;
+    border-color: #161b33;
+    color: white;
+    font-style: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+} 
+
+#navi1{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 80px;
+}
+#navi2{
+    background-color: #161b33;
+}
+#navi3{
+    background-color: #161b33;
+}
+#navi4{
+    background-color: #161b33;
+}
+#navi5{
+    background-color: #161b33;
+}
+
+#feature{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 8px;
+    border: solid;
+    border-style: inset;
+}
+
+#projtext{
+    font-family:Roboto;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+#desctext{
+    font-family:Roboto;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+#abouttext{
+    font-family:Roboto;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#project{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #474973;
+    border-style: solid;
+    border-color: #161b33;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.product{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#describe{
+    font-family:Roboto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.desc{
+    width: 500px;
+    height: 320px;
+    border-style: solid;
+    border-color: #161b33;
+    background-color: #474973;
+    color: white;
+    font-style: underline;
+    display: flex;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul.skill1{
+    font-size:20px;
+    line-height: 25px;
+    
+}
+
+.desc1{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+#desc2{
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 20px;
+    text-indent: 20px;
+    line-height: 25px;
+}
+
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #474973;
+    border-style: solid;
+    border-color: #161b33;
+    padding: 10px;
+    padding-left: 75px;
+    padding-right: 25px;
+    border-radius: 10px;
+}
+
+#email{
+    width: 150px;
+    height: 150px;
+}
+
+.footer{
+    font-family:Roboto;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: white;
+    text-align: left;
+}
+
+#back{
+    color: white;
+}
